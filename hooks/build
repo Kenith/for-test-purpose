@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --cpu-shares 262144 --cpu-period=100000 --cpu-quota=2000000 --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
+docker build --cpu-shares 262144 --cpu-quota=-1 --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
