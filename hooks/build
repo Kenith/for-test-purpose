@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --ulimit --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
+docker build --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
