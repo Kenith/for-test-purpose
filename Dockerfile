@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-ENV LANG C.UTF-8
+USER root
 
 # Variables & Environments
 ARG XMRIG_VERSION=6.8.2
