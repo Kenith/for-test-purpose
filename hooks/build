@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
+docker build --cpu-shares 1024000 --build-arg XMRIG_VERSION=$XMRIG_VERSION -t $IMAGE_NAME .
